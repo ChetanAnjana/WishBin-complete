@@ -1,0 +1,24 @@
+{
+  "name": "wishbin",
+  "version": "1.0.0",
+  "description": "1. installed tools",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChetanAnjana/WishBin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChetanAnjana/WishBin/issues"
+  },
+  "engines": {
+    "node": "v16.13.2"
+  },
+  "homepage": "https://github.com/ChetanAnjana/WishBin#readme"
+}
